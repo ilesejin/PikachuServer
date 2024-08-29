@@ -4,7 +4,7 @@
 Made by 엑사바이트🔌
 
 Thanks to 피카츄배구 온라인(https://open.kakao.com/o/g69cU1Ic)
-![image](https://user-images.githubusercontent.com/35063338/212844981-4ede4b74-d5cc-43c7-a2c2-e3471b6bffe9.png)
+![image](https://github.com/user-attachments/assets/62a82eac-ffcd-4429-b8c9-524a93c90403)
 
 ## 다운로드 방법
 ![image](https://user-images.githubusercontent.com/35063338/213129585-4f86071d-fb27-476b-8142-3f575fe6c932.png)
@@ -21,6 +21,8 @@ T = 초기화, Y = 재생/정지
 
 Frame 번호 입력하여 원하는 프레임으로 이동 가능
 
+적용: 바뀐 코드를 적용하여 다시 현재 프레임으로 이동
+
 FPS: 시간당 프레임(빠르게: 32~34)
 
 1p, 2p 좌표 표시, Ba: 공 좌표/Bv: 공 속도 
@@ -32,16 +34,18 @@ FPS: 시간당 프레임(빠르게: 32~34)
 
 /로 1p와 2p 구분, -로 프레임 구분
 
+랜덤 고정: 한 명령어 이후 ~로 추가하여 공 속도가 0이 되었을 때의 랜덤값 설정(L: -1, M: 0, R: 1)
+
 숫자로 하나의 명령어 반복(공백은 무시)
 
-ex) R/L 2 - / 20: 1p, 2p가 각각 앞으로 2틱 이동 후 정지
+ex) R/L~M2-/20: 1p, 2p가 각각 앞으로 2틱 이동 후 정지, 그동안 랜덤값은 0
 
 <1p 뒤돌려 v찍기>
 R/-/21-R/32-RUH/-/16-DH/
 
 <1p 7타>
 R/-/21-R/46-U/-/14-RH/-/14-RUH/-/19-U/3-RUH/-/17-RH/-RUH/41-U/13-DH/
-36/416에서 x축 속도 반전
+(36/416에서 x축 속도 반전)
 
 <1p n타>
 R/-/21-R/46-U/-/14-RH/-/14-RUH/-/19-U/3-RUH/-/17-RH/-U/14-RUH/-U/22-RUH/-/8-U/8-RUH/-/20-RUH/-U/16-RUH/-U/21-RUH/-/20-RUH/-U/17-RUH/-/15-RUH/-/17-U/4-RUH/-/14-RDH/-/20-U/5-RUH/-/22-RUH/-/11-U/6-RUH/-/15-RUH/-/18-U/3-RUH/-/14-RDH/-/20-U/5-RUH/-/22-RUH/-U/17-RH/-/14-RUH/-/18-U/4-RUH/-/15-RDH/-U/22-RUH/-/55-U/3-RUH/-/14-RDH/-
@@ -95,11 +99,6 @@ R/-/20-R/4-UR/25-URH/-/19-U/2-URH/-L/10-/3-DRH/-R/20-U/3-URH/-L/10-/3-DRH/
 
 <카이 3타>
 /9-RU/30-/5-U/-RUH/-/16-RUH/-U/17-RUH/-/14-RDH/-/14-U/-/7-RUH/-/15-RDH/
-/9-RU/30-/4-U/-/-RUH/-/16-RUH/-U/17-RUH/-/14-RDH/-U/22-RUH/-/17-RUH/-/10-U/7-UH/-L/19-LH/
 
 <높은 속공>
 R/-/19-U/-L/2-/-R/-RH/
-R/4-/19-L/5-/28-R/19-/17-U/-R/2-LH/2 (1p 4틱 후 3단 공격)
-R/4-/19-L/5-/28-R/18-/18-U/-R/3-/-LH/2
-/L-/19-/U-/R2-/-/L-/LH
-U/12-RH/-/13-/U-/L2-/R5-/LH2 (1p 공격 받아치기)

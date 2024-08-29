@@ -1,1 +1,1 @@
-{"root":[]}
+{"root":[{"assemblyName":"Unity.2D.Animation.Runtime","nameSpace":"","className":"$BurstDirectCallInitializer","methodName":"Initialize","loadTypes":2,"isUnityClass":true},{"assemblyName":"Unity.2D.SpriteShape.Runtime","nameSpace":"","className":"$BurstDirectCallInitializer","methodName":"Initialize","loadTypes":2,"isUnityClass":true},{"assemblyName":"Unity.Collections","nameSpace":"","className":"$BurstDirectCallInitializer","methodName":"Initialize","loadTypes":2,"isUnityClass":true}]}
