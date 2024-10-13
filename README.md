@@ -3,7 +3,7 @@
 
 Made by 엑사바이트🔌
 
-Thanks to 피카츄배구 온라인(https://open.kakao.com/o/g69cU1Ic)
+Thanks to 피카츄배구 온라인(https://open.kakao.com/o/g0Cs478f)
 ![image](https://github.com/user-attachments/assets/62a82eac-ffcd-4429-b8c9-524a93c90403)
 
 ## 다운로드 방법
